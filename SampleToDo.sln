@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedKernel", "src\SharedK
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specification.UnitTests", "tests\Specification.UnitTests\Specification.UnitTests.csproj", "{9A321C61-3CF9-4608-A08D-79288E7F0902}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedKernel.UnitTests", "tests\SharedKernel.UnitTests\SharedKernel.UnitTests.csproj", "{0BB83B24-7BE5-4CB4-A4B0-A04F9834CDC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +48,7 @@ Global
 		{074485F5-2332-4DE7-BED0-C6DF6DA1C239} = {60FFF401-107B-43C2-96F0-E3EA206EC8C9}
 		{C8CEDA3C-765B-41BB-A7CA-2D5EDE75D0C9} = {60FFF401-107B-43C2-96F0-E3EA206EC8C9}
 		{9A321C61-3CF9-4608-A08D-79288E7F0902} = {32CA136C-6DAE-49BC-9904-DCD195068B2E}
+		{0BB83B24-7BE5-4CB4-A4B0-A04F9834CDC5} = {32CA136C-6DAE-49BC-9904-DCD195068B2E}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5E8086C9-B89D-45A8-BC66-266F0EC58114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -88,5 +91,9 @@ Global
 		{9A321C61-3CF9-4608-A08D-79288E7F0902}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A321C61-3CF9-4608-A08D-79288E7F0902}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A321C61-3CF9-4608-A08D-79288E7F0902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BB83B24-7BE5-4CB4-A4B0-A04F9834CDC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BB83B24-7BE5-4CB4-A4B0-A04F9834CDC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BB83B24-7BE5-4CB4-A4B0-A04F9834CDC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BB83B24-7BE5-4CB4-A4B0-A04F9834CDC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
